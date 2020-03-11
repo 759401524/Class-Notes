@@ -1,0 +1,5 @@
+.idea/*
+.ipynb_checkpoints/*
+*.ps1
+*.bat
+ch2ex1.csv
