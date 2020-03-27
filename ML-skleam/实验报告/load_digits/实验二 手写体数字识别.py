@@ -27,7 +27,7 @@ from sklearn.preprocessing import StandardScaler
 ss = StandardScaler()  # 仍然需要对训练和测试的特征数据进行标准化
 X_train = ss.fit_transform(X_train)
 X_test = ss.transform(X_test)
-LogisticRegression
+# LogisticRegression
 # 数字识别及预测
 # 从sklearn.linear_model里导入LogisticRegression
 from sklearn.linear_model import LogisticRegression
@@ -50,7 +50,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-SGDClassifier
+# SGDClassifier
 # 数字识别及预测
 # 从sklearn.linear_model里导入SGDClassifier
 from sklearn.linear_model import SGDClassifier
@@ -73,7 +73,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-LinearSVC
+# LinearSVC
 # 数字识别及预测
 # 从sklearn.svm里导入基于线性假设的支持向量机分类器LinearSVC
 from sklearn.svm import LinearSVC
@@ -96,7 +96,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-SVC
+# SVC
 # 数字识别及预测
 # 从sklearn.svm里导入支持向量机分类器SVC。
 from sklearn.svm import SVC
@@ -121,7 +121,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-NuSVC
+# NuSVC
 # 数字识别及预测
 # 从sklearn.svm里导入核支持向量机分类器NuSVC。
 from sklearn.svm import NuSVC
@@ -146,7 +146,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-KNeighborsClassifier
+# KNeighborsClassifier
 # 数字识别及预测
 # 从sklearn.neighnors里导入KNeighborsClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -171,7 +171,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-GaussianNB
+# GaussianNB
 # 数字识别及预测
 # 从sklearn.naive_bayes里导入GaussianNB
 from sklearn.naive_bayes import GaussianNB
@@ -195,7 +195,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-BernoulliNB
+# BernoulliNB
 # 数字识别及预测
 # 从sklearn.naive_bayes里导入BernoulliNB
 from sklearn.naive_bayes import BernoulliNB
@@ -219,7 +219,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-DecisionTreeClassifier
+# DecisionTreeClassifier
 # 数字识别及预测
 # 从sklearn.tree里导入DecisionTreeClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -243,7 +243,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-RandomForestClassifier
+# RandomForestClassifier
 # 数字识别及预测
 # 从sklearn.ensemble里导入RandomForestClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -267,7 +267,7 @@ print(
     classification_report(y_test,
                           y_predict,
                           target_names=digits.target_names.astype(str)))
-GradientBoostingClassifier
+# GradientBoostingClassifier
 # 数字识别及预测
 # 从sklearn.ensemble里导入GradientBoostingClassifier
 from sklearn.ensemble import GradientBoostingClassifier
